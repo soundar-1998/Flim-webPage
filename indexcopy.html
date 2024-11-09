@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NetFlix </title>
+    <link rel="icon"href="https://tse4.mm.bing.net/th?id=OIP.RFc1S7P4Clig_KTvHAwIhQHaHa&pid=Api&P=0&h=220">
+    
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<style>
+    *{
+    margin:0;
+    padding:0;
+        font-family:'poppins',sans-serif;
+        box-sizing: border-box;
+}body{
+   margin-left: 10px;
+
+
+background-image: url('https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg');
+}*{
+    margin: 0;
+    padding:0;
+}form{
+filter:brightness(90%);
+height: 600px;
+width:50%;
+margin:50px;
+transform:scale(0.98);
+border-radius: 12px;
+opacity: 0.9;
+background-color:black;
+}
+label{
+    padding:10px;
+}input[type="text"]{
+    width:200px;
+    display:flex;
+
+}.subcls{
+    display: flex;
+    justify-content: center;
+    outline: 0;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: -350px;
+    
+}
+.subcls input{
+    
+    height: 60px;
+    width: 290px;
+}
+h1{
+    margin:center;
+}
+.login{
+    margin-left: 140px;
+    background-color: red;
+    border:none;
+padding:6px;
+width:250px;
+}.register{
+    margin-left: 140px;
+    color:white;
+    background-color:rgb(35, 35, 35);
+    border:none;
+padding:2px;
+width:250px;
+text-align: center;
+}
+.login,.register:hover{
+color:rgb(227, 227, 237);
+text-decoration: underline;
+}.main{
+border-radius: 20px;
+}.a{
+    margin-top: -80px;
+    margin-left:20px;
+}
+
+.a a p{
+    color:rgb(235, 241, 241);
+}.a a:hover{
+    color:rgb(235, 235, 10);
+    
+}.head {
+    margin-left: 450px; 
+    margin-top:50px;
+    border:none;
+    border-radius: 50px;
+    padding:10px;
+    height: 10px;
+       
+}h3{
+    text-align: center;
+    margin-bottom: 350px;
+    color:rgb(237, 240, 240);
+    background-color: rgb(45, 46, 46);
+    height: 80px;
+    border-radius: 12px;
+}p{
+    color:rgb(243, 242, 242);
+    margin-left: 80px;
+    font-size: small;
+}#input-box{
+    background-color: #fcf6f6;
+    width:90%;
+    color:black;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin :100px auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top:20px;
+}#input-box input{
+    width: 100%;
+    padding: 10px 0;
+border: 0;
+outline: 0;
+font-size: 24px;
+color:#1a1818;
+}
+
+#input-box img{
+width: 18px;
+height: 25px;
+cursor: pointer;
+}#forget{
+    color:white;
+    margin-left:200px;
+}#me{
+    color:white;    
+    margin-left: 200px;
+}.up{
+    color:white;
+    margin-left: 30px;
+}span{
+    color:blue;
+}.footer{
+    background-color: black;
+width: 600px;
+margin-left: 300px;
+}.drop{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    
+    margin-left: -470px;
+    background-color: black;
+}
+</style>
+
+</head>
+<body>
+  <div class="net"><img src="logo.png"></div>
+         
+      <section class="head">
+    <form>
+        <h3>SIGN IN</h3>
+          
+        <br>
+            <br>
+            
+    <div class="subcls">
+        <i class="fa-sharp-duotone fa-solid fa-envelope"></i>
+        <input type="text"placeholder="Email ID" id="user" id="">
+        </div>
+        <div id="input-box">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password"placeholder="Password" id="password"><img src="closeeye.png" id="eyeicon">
+        </div>
+    
+       <div class="a">
+    
+    </div>
+       &nbsp;<button   class="login"onclick="login()">Sign In</button>
+        <br>
+                <div class="or"><h4>OR</h4></div>
+        
+        <div class="register"><a href="Register.html">Register</a></p></div>
+
+<br>
+<a id="forget"onclick="forget()">Forget Password ?</a>
+<br>
+<br>
+        <input type="checkbox" id="me"><a href="#">Rememebr Me</a>
+
+       <div class="up"> <h6>New to Netflix? Sign up now.
+       </div>
+        </h6>
+        <div class="the"><p>
+            This page is protected by Google reCAPTCHA to ensure <br>you're not a bot.<span>Learn more.</span>
+        </p>
+    </div>
+            
+            </form>
+
+           <div class="drop">
+            
+             <h5 class="ques">Questions? Call <a>000-800-919-1694</a></h5>
+                                
+            <!-- Section: Text -->
+        
+            <!-- Section: Links -->
+            <section class="">
+              <br>
+              <br>
+              <br>
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0"id="footer">
+                  
+        
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a class="text-body" href="#!">FAQ</a>
+                    </li><br>
+                    <li>
+                      <a class="text-body" href="#!">cookie perference</a>
+                    </li>
+                   </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0"id="footer">
+                  
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a class="text-body" href="#!">Help Centre</a>
+                    </li>
+                    <br>
+                    <li>
+                      <a class="text-body" href="#!">Corporate Information</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer">
+                  
+        
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a class="text-body" href="#!">Terms of use</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0"id="footer">
+                  
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a class="text-body" href="#!">privary</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            
+            <!-- Section: Links -->
+          
+        </div> 
+        </section>
+        <script>
+            let eyeicon=document.getElementById("eyeicon");
+            let password=document.getElementById("password");
+            eyeicon.onclick=function(){
+                if(password.type=="password"){
+                  password.type="text";
+                   eyeicon.src="openeye.jpeg";
+                }else{
+                    password.type="password";
+                    eyeicon.src="closeeye.png";
+                }
+            }
+        </script>
+        <script>
+            const rmcheck=document  .getElementById('rememeberMe');
+            passinput=document.getElementById("password");
+            emailinput=document.getElementById("email");
+        </script>
+           <div class="english">
+            <div class="dropdown">
+                <button type="button" class="btn btn-dark dropdown-toggle  " data-bs-toggle="dropdown">English</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">hindi</a></li>
+                  
+                </ul>
+         </div>
+      
+        <script src="script.js"></script> 
+     
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding:0;
+    body{
+        background-color:rgb(29, 36, 66) ;
+    }
+}form,h1{
+background-color:rgb(147, 239, 243);
+filter:brightness(90%);
+width:75%;
+border:2px solid rgb(133, 137, 133);
+margin:50px;
+
+}
+label{
+    color:navy;
+    padding:10px;
+}input[type="text"]{
+    height:30px;
+    width:190px;
+}option{
+    background-color:rgb(38, 171, 228);
+}textarea{
+    background-color: rgb(211, 175, 212);
+}button{
+    background-color:black ;
+    color:white;
+    padding:10px;
+    border-radius:30px;
+    h1{
+        margin-left:200px;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>REGISTER</h1>
+    <form>
+        <br>
+        <label>FirstName:</label>
+        <input type="text"
+        placeholder="Name"><br><br>
+        <label>LastName:</label>
+        <input type="text"
+        placeholder="FatherName"required><br><br>
+        <label>Gender:</label>
+        <input type="radio">male
+        <input type="radio">Female
+        <input type="radio">transgender<br><br>
+        <label>Countries:</label>
+        <input type="checkbox">Indian
+        <input type="checkbox">Foreigners<br><br>
+        
+        <lable>City:</lable>
+            <select>
+        <option>Choose Your City</option>
+        <option>Coimbatore</option>
+        <option>Selam,</option>
+        <option>Chennai</option>
+            </select><br> <br>
+           
+            <label>Address</label>
+            <textarea row "2">
+        
+        
+            </textarea><br><br>
+            <label>Age:</label>
+            <input type="number"><br><br>
+            <label>Password:</label>
+            <input type="password"
+            pattern="(?=,+\d)(?=,'[a-z])(?=,+[A-Z]),{6,}"
+        title="Must contain at least one number and one
+         uppercase and lowercase letter, and at least 6 or more characters"required><br><br>
+            <label>Email:</label>
+            <input type="Email"required><br><br>
+           
+            <label>url:</label>
+            <input type="url"required><br><br>
+           
+           
+                
+        
+        
+        
+        
+        
+            <button>Login</button>
+        
+            </form>
+            <script>
+                alert   ("will you submit the form");
+            </script>
+        
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    
+}.section1{
+    height: 100vh;
+    background-image:url('https://singh-cp.github.io/netflix-landingpage/images/netflix-background-image.jpg');
+    background-size:cover ;
+background-position: center;
+    
+}.section1:background-image{
+opacity: 0.8;
+}
+.net{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display:flex;
+justify-items:center;
+background-position:flex ;
+margin-left:10%;
+height: 100%;
+
+}.eng{
+margin-left: 85%;
+}#email{
+    margin-left: 200px;
+    box-sizing: 400px;
+}.box{
+    width: 500px;
+height: 50px;
+background-color: black;
+display: flex;
+align-items: center;
+padding: 20px;
+border: 2px solid white;
+
+}.box > input{
+flex:1;
+height: 40px;
+border: none;
+outline: none;
+font-size: 18px;
+opacity: 0.1;
+} placeholder{
+    color:white;
+}.body{
+    margin-right: 600px;
+}.box{
+    margin-left: 400px;
+    margin-bottom: -50px;
+}#btn{
+    margin-left: 950px;
+    box:200px;
+}#slide{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+}#trend{
+    color:white;
+}.subdiv1{
+    background-color: rgb(12, 12, 12);
+}#more{
+    color: white;
+    margin-left:30px;
+}div #tab img{
+   height: 280px;
+}#tab{
+    margin-left: 180px;
+}.subdiv2{
+    background-color: rgb(12, 12, 12) ;
+}.asked{
+    color:white;
+    margin-left: 170px;
+}.accordion{
+    color:white;
+    height: 300px;
+    width: 1000px;
+    margin-left: 150px;
+}.subdiv1,.subdiv2{
+    background-color: black;
+}#collapseOne,#collapseTwo,#collapseThree,#collapseFour,#collapseFive,#collapseSix{
+background-color: black;
+color:white;
+}.accordion button{
+    color:black;
+}.accordion1{
+    color:white;
+    height: 300px;
+    width: 1000px;
+    margin-left: 150px;
+margin-bottom: 100px;
+}h6{
+    margin-left: 400px;
+}.section1{
+    background-color: black;
+}.footer {
+    background-color: rgb(0, 0, 0);
+    color:white;
+}#footer {
+    color:white;
+display:flex;
+justify-content: center;
+}.flix{
+    color:rgb(235, 38, 38);
+}.more{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    color:white;
+}.signup{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
